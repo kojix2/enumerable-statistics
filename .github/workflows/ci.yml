@@ -29,5 +29,6 @@ jobs:
         bundle install
         bundle exec rake compile
         cargo install fd-find
+        fd
         fd -e dylib -x otool -L
         fd -e bunle -x otool -L
