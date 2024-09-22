@@ -28,6 +28,6 @@ jobs:
       run: |
         bundle install
         bundle exec rake compile
-        cargo install fd
+        cargo install fd-find
         fd -e dylib -x otool -L
         fd -e bunle -x otool -L
