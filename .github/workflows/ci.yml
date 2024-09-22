@@ -29,4 +29,4 @@ jobs:
         bundle install
         bundle exec rake compile
         cargo install fd-find
-        otool -l lib/enumerable/statistics/extension.bundle
+        otool -L lib/enumerable/statistics/extension.bundle
